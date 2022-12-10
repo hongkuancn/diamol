@@ -1,4 +1,4 @@
-FROM diamol/grafana:6.4.3
+FROM grafana/grafana:6.5.0
 
 COPY datasource-prometheus.yaml ${GF_PATHS_PROVISIONING}/datasources/
 COPY dashboard-provider.yaml ${GF_PATHS_PROVISIONING}/dashboards/
